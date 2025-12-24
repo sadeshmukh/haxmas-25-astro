@@ -26,6 +26,7 @@ const theABlogSpreads = () => (tree) => {
 
 // https://astro.build/config
 export default defineConfig({
+  // adapter: cloudflare({ mode: "directory" }),
   vite: {
     plugins: [tailwindcss()],
   },
